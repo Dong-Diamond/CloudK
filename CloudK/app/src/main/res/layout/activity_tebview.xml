@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TabViewActivity">
+
+    <LinearLayout
+        android:id="@+id/equi_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/Title_color"
+        android:layout_toLeftOf="@id/menu"
+        >
+        <TextView
+            android:id="@+id/equi_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="物联网设备信息"
+            android:textSize="20dp"
+            android:textColor="#666666"
+            android:gravity="center"
+            />
+        <ImageButton
+            android:id="@+id/equi_info_down"
+            android:layout_width="15dp"
+            android:layout_height="11dp"
+            android:background="@drawable/down"
+            android:layout_marginHorizontal="5dp"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/setting_bg"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/equi_id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000"
+        android:text="设备ID的信息"
+        android:textColor="@color/yunkong_blue"
+        android:layout_below="@id/equi_info_title"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        />
+
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_layout"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tab_layout"
+        android:layout_below="@id/equi_info_title"
+        />
+    <com.cloudk.tabview.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#F0F0F0"
+       />
+</RelativeLayout>

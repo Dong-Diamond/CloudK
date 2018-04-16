@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1d1d1d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBigWhite">#ffffff</color>
+    <color name="colorWhite">#cccc</color>
+    <color name="btn_color">#df2223</color>
+    <color name="yunkong_blue">#00a0df</color>
+    <color name="error_info_color">#ff0000</color>
+    <color name="lucency">#000f</color>
+    <color name="interlayer">#666</color>
+
+    <color name="IoT_Info">#888888</color>
+    <color name="Title_color">#222222</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="black">#000000</color>
+    <color name="tab_gray">#ff999999</color>
+    <color name="tab_green">#ff45c01a</color>
+
+</resources>

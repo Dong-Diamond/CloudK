@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/realtime_text1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/yunkong_blue"
+        />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/realtime_line_chart1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <!--<TextView-->
+        <!--android:id="@+id/realtime_text2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/yunkong_blue"-->
+        <!--/>-->
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/realtime_line_chart2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--&gt;-->
+    <!--</com.github.mikephil.charting.charts.LineChart>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/realtime_text3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/yunkong_blue"-->
+        <!--/>-->
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/realtime_line_chart3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--&gt;-->
+    <!--</com.github.mikephil.charting.charts.LineChart>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/realtime_text4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/yunkong_blue"-->
+        <!--/>-->
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/realtime_line_chart4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+
+        <!--&gt;-->
+    <!--</com.github.mikephil.charting.charts.LineChart>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/realtime_text5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/yunkong_blue"-->
+        <!--/>-->
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/realtime_line_chart5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--&gt;-->
+    <!--</com.github.mikephil.charting.charts.LineChart>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/realtime_text6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/yunkong_blue"-->
+        <!--/>-->
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/realtime_line_chart6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+
+        <!--&gt;-->
+    <!--</com.github.mikephil.charting.charts.LineChart>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/realtime_text7"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/yunkong_blue"-->
+        <!--/>-->
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/realtime_line_chart7"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--&gt;-->
+    <!--</com.github.mikephil.charting.charts.LineChart>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/realtime_text8"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/yunkong_blue"-->
+        <!--/>-->
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/realtime_line_chart8"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--&gt;-->
+    <!--</com.github.mikephil.charting.charts.LineChart>--> 
+
+    <!--<TextView-->
+        <!--android:id="@+id/realtime_text9"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@color/yunkong_blue"-->
+        <!--/>-->
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/realtime_line_chart9"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--&gt;-->
+    <!--</com.github.mikephil.charting.charts.LineChart>-->
+
+</LinearLayout>

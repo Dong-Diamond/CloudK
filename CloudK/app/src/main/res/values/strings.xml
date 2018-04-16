@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">云控</string>
+    <string name="realtime">实时信息</string>
+    <string name="track">轨迹跟踪</string>
+    <string name="history">历史信息</string>
+    <string name="user">设备位置</string>
+</resources>
